@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GShark.gRPC.Base\GShark.gRPC.Base.csproj" />
+    <ProjectReference Include="..\GShark.gRPC.DTOs\GShark.gRPC.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

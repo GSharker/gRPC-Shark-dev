@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GShark" Version="1.4.0" />
+    <PackageReference Include="NBomber.Http" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GShark.gRPC.Base\GShark.gRPC.Base.csproj" />
+    <ProjectReference Include="..\gShark.gRPC.Client\gShark.gRPC.Client.csproj" />
+  </ItemGroup>
+
+</Project>

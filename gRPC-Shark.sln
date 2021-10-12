@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GShark.gRPC.DTOs", "GShark.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GShark.gRPC.Methods", "GShark.gRPC.Methods\GShark.gRPC.Methods.csproj", "{FD7EA971-A6B9-4641-9DD1-91E29F4F392B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gShark.gRPC.Client", "gShark.gRPC.Client\gShark.gRPC.Client.csproj", "{76F6F6FD-9A96-48A3-9C09-E3E359078824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GShark.gRPC.Tests.Load", "GShark.gRPC.Tests.Load\GShark.gRPC.Tests.Load.csproj", "{0C870086-7EFB-44EA-A7BF-A85D255DAC43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{FD7EA971-A6B9-4641-9DD1-91E29F4F392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD7EA971-A6B9-4641-9DD1-91E29F4F392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD7EA971-A6B9-4641-9DD1-91E29F4F392B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F6F6FD-9A96-48A3-9C09-E3E359078824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F6F6FD-9A96-48A3-9C09-E3E359078824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F6F6FD-9A96-48A3-9C09-E3E359078824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F6F6FD-9A96-48A3-9C09-E3E359078824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C870086-7EFB-44EA-A7BF-A85D255DAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C870086-7EFB-44EA-A7BF-A85D255DAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C870086-7EFB-44EA-A7BF-A85D255DAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C870086-7EFB-44EA-A7BF-A85D255DAC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
