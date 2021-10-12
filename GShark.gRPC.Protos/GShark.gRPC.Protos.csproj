@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="geometry\point3.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include=".\geometry\*.proto" GrpcServices="Both" />
+    <Protobuf Include=".\geometry\services\*.proto" GrpcServices="Both" />
+    <Protobuf Include=".\google\api\*.proto" GrpcServices="Both" />
+    
+  </ItemGroup>
+
+</Project>

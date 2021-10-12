@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Grpc.HttpApi" Version="0.1.0-alpha.21317.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GShark.gRPC.Protos\GShark.gRPC.Protos.csproj" />
+  </ItemGroup>
+
+</Project>

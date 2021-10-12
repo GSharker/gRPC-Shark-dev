@@ -1,0 +1,26 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GShark.gRPC";
+
+import "geometry/point3.proto";
+import "google/api/annotations.proto";
+
+service NurbsService {
+	rpc QueryPointAtParameter(PointAtParameterRequest) returns (PointAtParameterResponse) {
+	option (google.api.http) = {
+		post: "/geom/pointat"
+		body: "*"
+	};
+	}
+}
+
+message PointAtParameterRequest {
+	repeated Point3 points = 1;
+	repeated double point_weights = 2;
+	int32 degree = 3;
+	double parameter = 4;
+}
+
+message PointAtParameterResponse {
+	Point3 point = 1;
+}

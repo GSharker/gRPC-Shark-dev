@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "GShark.gRPC";
+
+message Point3 {
+	double x = 1;
+	double y = 2;
+	double z = 3;
+}
